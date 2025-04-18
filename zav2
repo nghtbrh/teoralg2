@@ -3,7 +3,7 @@ import java.util.Arrays;
 //  ["Apple", "avocado", "banana", "cherry"] - Вивід
 public class Main2 {
     public static void main(String[] args) {
-        String[] words = {"banana", "Apple", "cherry", "avocado"};
+        String[] words = {"raw", "ez", "cherry", "simple"};
         System.out.println(Arrays.toString(words));
         for (int i = 0; i < words.length - 1; i++) {
             for (int j = 0; j < words.length - i - 1; j++) {
